@@ -9,14 +9,10 @@ public class Chat {
 
     public static void run() {
         String msg;
-        int i = 0;
 
-
-        while (i == 0) {
+        while (true) {
             msg = "Salut";
-            //user = "toto";
             formatMessage(user, msg);
-            ++i;
         }
     }
 
