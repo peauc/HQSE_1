@@ -9,7 +9,7 @@ run `gradle run` to start the program.
 
 ####Author
 
-Clément PÉAU @peauc
-Maxence Lauqué @chiliconcarnage 
-Thomas Guichard @guicha-t
-Alexandre Blanchard @blanchard-A
+Clément PÉAU @peauc  
+Maxence Lauqué @chiliconcarnage   
+Thomas Guichard @guicha-t            
+Alexandre Blanchard @blanchard-A  
