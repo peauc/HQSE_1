@@ -3,8 +3,6 @@
  */
 package HQSE_5;
 
-import jdk.nashorn.internal.runtime.options.Options;
-
 public class App {
     public String getGreeting() {
         return "Hello world.";
