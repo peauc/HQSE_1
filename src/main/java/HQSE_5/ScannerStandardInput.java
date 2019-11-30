@@ -13,5 +13,5 @@ public class ScannerStandardInput {
     public String getInput() {
         this.UserCommand = this.scanner.nextLine();
         return (this.UserCommand);
-        }
     }
+}
