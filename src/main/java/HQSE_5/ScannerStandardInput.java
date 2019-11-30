@@ -10,10 +10,6 @@ public class ScannerStandardInput {
         this.scanner = new Scanner(System.in);
     }
 
-    protected void CloseScanner() {
-        this.scanner.close();
-    }
-
     public String getInput() {
         this.UserCommand = this.scanner.nextLine();
         return (this.UserCommand);
