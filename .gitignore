@@ -4,6 +4,5 @@
 # Ignore Gradle build output directory
 build
 
-HQSE_5.main.iml
+HQSE_5.*
 
-HQSE_5.test.iml
