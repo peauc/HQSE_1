@@ -3,7 +3,7 @@ package HQSE_5;
 import java.util.Scanner;
 
 public class ScannerStandardInput {
-    private String UserCommand;
+    private String userCommand;
     private Scanner scanner;
 
     public ScannerStandardInput() {
@@ -11,7 +11,7 @@ public class ScannerStandardInput {
     }
 
     public String getInput() {
-        this.UserCommand = this.scanner.nextLine();
-        return (this.UserCommand);
+        this.userCommand = this.scanner.nextLine();
+        return (this.userCommand);
     }
 }
