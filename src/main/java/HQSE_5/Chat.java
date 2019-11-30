@@ -4,19 +4,18 @@ public class Chat {
     private static String user;
 
     public Chat(String name) {
-        this.user = name;
+        user = name;
     }
 
-    public static void run() {
+    public void run() {
         String msg;
+        ScannerStandardInput scanner = new ScannerStandardInput();
+        Printer printer = new Printer();
 
+        //noinspection InfiniteLoopStatement
         while (true) {
-            msg = "Salut";
-            formatMessage(user, msg);
+            printer.printName(user);
+            msg = scanner.getInput();
         }
-    }
-
-    public static void formatMessage(String name, String msg) {
-        System.out.println("[" + name + "] " + msg);
     }
 }
