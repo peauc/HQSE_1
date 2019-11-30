@@ -20,6 +20,6 @@ public class PrinterTest {
     public void testPrinterMessage() {
         Printer printer = new Printer();
         printer.printMessage("Hello World !");
-        assertEquals("Hello World !\r\n", sysOut.asString());
+        assertEquals(String.format("Hello World !%n"), sysOut.asString());
     }
 }
