@@ -39,7 +39,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+applicationName = 'chatbot'
 application {
     // Define the main class for the application
     mainClassName = 'HQSE_5.App'
+    executableDir = 'bin'
 }
